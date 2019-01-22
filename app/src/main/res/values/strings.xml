@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food Buff</string>
+
+    <string name="servings">Servings:</string>
+    <string name="measure">Measure:</string>
+    <string name="ingredient">Ingredient:</string>
+    <string name="appwidget_text">INGREDIENTS</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_details_list">Items</string>
+    <string name="title_details_detail">Details Detail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_detail_list">Items</string>
+    <string name="title_detail_detail">Detail Detail</string>
+    <string name="title_item_list">Steps</string>
+    <string name="title_item_detail">Video</string>
+</resources>

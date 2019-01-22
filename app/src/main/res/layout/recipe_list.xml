@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardView"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#fff"
+        app:cardCornerRadius="2dp"
+        app:contentPadding="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/dish_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/ic_dish_icon"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/dish_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:layout_toEndOf="@+id/dish_image_view"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/dish_image_view" />
+
+            <TextView
+                android:id="@+id/servings_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dish_text_view"
+                android:layout_toEndOf="@+id/dish_image_view"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@+id/dish_image_view"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
